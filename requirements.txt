@@ -1,4 +1,4 @@
 pytest
 requests
 jmespath
-allure
+allure_pytest
