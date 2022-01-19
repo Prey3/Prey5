@@ -2,7 +2,6 @@ import json
 
 import jmespath
 import requests
-import self as self
 
 
 class BaseApi:
