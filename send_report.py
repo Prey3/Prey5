@@ -25,7 +25,7 @@ class DingRobot:
             content = {
                 "msgtype": "link",
                 "link": {
-                    "text": "        admin   123456",
+                    "text": "     admin   123456",
                     "title": "⁣" + datetime.datetime.now().strftime('%Y-%m-%d %H:%M:%S'),
                     "picUrl": "",
                     "messageUrl": "http://admin:123456@101.200.243.163:9000/job/Prey9/allure/"
