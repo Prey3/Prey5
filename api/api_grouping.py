@@ -64,7 +64,9 @@ class Grouping(BaseApi):
             "headers": self.header,
             "params": {'id': self.json_parser()}
         }
+        assert self.send(data).status_code == 300
         return self.send(data)
+
 
 
 # if __name__ == '__main__':
