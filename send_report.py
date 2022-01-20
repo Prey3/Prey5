@@ -28,7 +28,7 @@ class DingRobot:
                     "text": "     admin   123456",
                     "title": "⁣" + datetime.datetime.now().strftime('%Y-%m-%d %H:%M:%S'),
                     "picUrl": "",
-                    "messageUrl": "http://admin:123456@101.200.243.163:9000/job/Prey9/40/allure/"
+                    "messageUrl": "http://admin:123456@101.200.243.163:9000/job/Prey9/allure/"
                 }
             }
             response = requests.post(self.ding, headers=headers, data=json.dumps(content))
