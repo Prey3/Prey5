@@ -36,5 +36,5 @@ class DingRobot:
             print('无报错')
 
 
-if __name__ == '__main__':
-    DingRobot().send_report()
+# if __name__ == '__main__':
+#     DingRobot().send_report()
